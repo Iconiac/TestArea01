@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+	<head>
+        <title>Hello World</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link type="text/css" href="style.css" rel="stylesheet"/> 
+        <script src="jquery.js"></script>        
+        
+        
+	</head>
+
+	<body>
+	
+        <p class="kreis" id="kreis1">O</p>
+        <p class="kreis" id="kreis2">O</p>
+        <p class="kreis" id="kreis3">O</p>
+        
+        <script type="text/javascript">
+        
+           document.getElementById("kreis1").onclick = function()
+            {
+                document.getElementById("kreis1").style.display = "none";
+            }
+           
+           
+           $("#kreis2").click(function(){
+               alert("Hallo");
+           })
+            
+        </script>
+	</body>
+
+</html>
